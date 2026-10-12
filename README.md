@@ -1,26 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BETWEEN — Where the spark between people begins.
 
-## Getting Started
+Day 1 (M2 — Lidiya) status: DONE.
 
-First, run the development server:
+- Next.js (App Router) + TypeScript + Tailwind base: `src/app/page.tsx`
+- Supabase wiring: `src/lib/supabase/client.ts`, `src/lib/supabase/server.ts`
+- Cloud project: `between` (ref `bvaunhbfrapshuwmmdff`, ap-south-1) — dashboard: https://supabase.com/dashboard/project/bvaunhbfrapshuwmmdff
+- Health check: `GET /api/health`
+- GitHub: https://github.com/alwaysalearner1234/between
+
+## Getting Started (Day 1)
 
 ```bash
+npm install
+cp .env.example .env.local  # already filled locally; on a new machine copy keys from Supabase Dashboard > Settings > API
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 and http://localhost:3000/api/health.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy on Vercel (blank deploy)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Go to https://vercel.com/new and Import `alwaysalearner1234/between`.
+2. Framework preset: Next.js (auto). Add env vars from `.env.local`:
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY` (server-only)
+3. Deploy. Verify `/` and `/api/health` on the Vercel URL.
 
-## Learn More
+## Learn More (default Next.js docs)
 
 To learn more about Next.js, take a look at the following resources:
 
