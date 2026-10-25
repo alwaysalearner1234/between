@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/block-report/[matchId]/page": "app/block-report/[matchId]/page.js",
+  "/bridge/[matchId]/page": "app/bridge/[matchId]/page.js",
+  "/chat/[matchId]/page": "app/chat/[matchId]/page.js",
+  "/connections/[matchId]/page": "app/connections/[matchId]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/matches/page": "app/matches/page.js",
+  "/page": "app/page.js",
+  "/preferences/page": "app/preferences/page.js",
+  "/waiting/[matchId]/page": "app/waiting/[matchId]/page.js",
+  "/welcome/page": "app/welcome/page.js"
+}

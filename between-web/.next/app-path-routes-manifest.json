@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/block-report/[matchId]/page": "/block-report/[matchId]",
+  "/bridge/[matchId]/page": "/bridge/[matchId]",
+  "/chat/[matchId]/page": "/chat/[matchId]",
+  "/connections/[matchId]/page": "/connections/[matchId]",
+  "/favicon.ico/route": "/favicon.ico",
+  "/matches/page": "/matches",
+  "/page": "/",
+  "/preferences/page": "/preferences",
+  "/waiting/[matchId]/page": "/waiting/[matchId]",
+  "/welcome/page": "/welcome"
+}

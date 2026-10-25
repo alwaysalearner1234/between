@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/waiting/layout,_N_T_/waiting/[matchId]/layout,_N_T_/waiting/[matchId]/page"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/waiting/$d$matchId/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/d98fcb8d09c542cd8ec8c69fd1f4a1b0d3e7a105edeecc1ec04ced56e71f2a16/$/waiting/[matchId]",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/waiting/[matchId]/page"
+    },
+    "isFallback": true
+  }
+}

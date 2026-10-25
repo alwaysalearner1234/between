@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fblock-report\u002F[matchId]","\u002Fbridge\u002F[matchId]","\u002Fchat\u002F[matchId]","\u002Fconnections\u002F[matchId]","\u002Fwaiting\u002F[matchId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

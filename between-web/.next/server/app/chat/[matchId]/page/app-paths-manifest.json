@@ -1,0 +1,3 @@
+{
+  "/chat/[matchId]/page": "app/chat/[matchId]/page.js"
+}
