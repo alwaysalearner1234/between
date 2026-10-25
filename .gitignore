@@ -1,7 +1,14 @@
-node_modules/
-.next/
-dist/
-build/
+# Dependencies
+**/node_modules/
+
+# Next.js build output
+**/.next/
+
+# Build directories
+**/dist/
+**/build/
+
+# Environment secrets
 .env
 .env.local
 .env.*.local
